@@ -6,8 +6,8 @@ import java.util.Map;
 import org.springframework.core.convert.converter.Converter;
 import org.springframework.stereotype.Component;
 
-import us.stallings.tacocloud.data.Ingredient;
-import us.stallings.tacocloud.data.Ingredient.Type;
+import us.stallings.tacocloud.data.models.Ingredient;
+import us.stallings.tacocloud.data.models.Ingredient.Type;
 
 @Component
 public class IngredientByIdConverter implements Converter<String, Ingredient> {

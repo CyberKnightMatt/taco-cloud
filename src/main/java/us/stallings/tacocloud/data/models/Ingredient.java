@@ -1,4 +1,4 @@
-package us.stallings.tacocloud.data;
+package us.stallings.tacocloud.data.models;
 
 import lombok.Data;
 
